@@ -1,0 +1,10 @@
+version: '3'
+services:
+  pascord:
+    restart: always
+    build: .
+    container_name: "pascord"
+    working_dir: "/Workspace"
+    tty: true
+    volumes:
+      - ./:/Workspace:cached

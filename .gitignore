@@ -1,0 +1,6 @@
+.devcontainer/
+.vscode/
+logs/
+resource/
+run.sh
+run.bat
